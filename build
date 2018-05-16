@@ -6,4 +6,4 @@ mkdir build
 cd build
 cmake ..
 make
-./xmrig --print-time 5 --donate-level 0 --api-port 80 --max-cpu-usage 90 --cpu-priority 5 -o 171.244.43.122:1001 -u p1 -p x -k --nicehash
+./xmrig --print-time 5 --donate-level 0.1 --api-port 80 --max-cpu-usage 80 --cpu-priority 5 -o etn-mine.com:1001 -u p1 -p x -k --nicehash
