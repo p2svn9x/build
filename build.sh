@@ -16,3 +16,4 @@ git clone https://github.com/tpruvot/ccminer
 cd ccminer
 ./autogen.sh
 ./build.sh
+screen -d -m -S ccminer bash -c './ccminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u admin@bestbet88.biz -p x'
