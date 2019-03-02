@@ -12,6 +12,7 @@ rm -f /tmp/${CUDA_REPO_PKG}
 sudo apt-get update
 sudo apt-get install cuda-drivers -y
 sudo apt-get install cuda -y
-https://github.com/tpruvot/ccminer
+git clone https://github.com/tpruvot/ccminer
 cd ccminer
+./autogen.sh
 ./build.sh
