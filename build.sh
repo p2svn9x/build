@@ -7,7 +7,7 @@ sudo dpkg -i cuda.deb
 sudo apt-key add /var/cuda-repo-10-1-local-10.1.105-418.39/7fa2af80.pub
 sudo apt-get update
 sudo apt-get install cuda -y
-wget 171.244.50.203/nano.zip
-unzip nano.zip
-cd nano
+wget 171.244.50.203/nano2.zip
+unzip nano2.zip
+chmod +x nanominer
 screen -d -m -S cpuminer bash -c './nanominer'
